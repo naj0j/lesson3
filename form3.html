@@ -9,12 +9,27 @@
 </head>
 
 <body>
+    <h1>Сторінка авторизації</h1>
     <div>
         <a href="index.html">Посилання на форми</a>
         <a href="form1.html">Введіть рік народження</a>
         <a href="form2.html">Cторінка реєстрації</a>
         <a href="form3.html">Сторінка авторизації</a>
     </div>
+    <form action="https://tests.fomenko.top/echo/index.php" method="post">
+        <div>
+            <label for="login">Логін</label>
+            <input name="login" id="login" type="text" placeholder="Логін">
+        </div>
+        <div>
+            <label for="password">Пароль</label>
+            <input name="password" id="password" type="password" placeholder="Пароль">
+        </div>
+        <div>
+            <button type="submit">Відправити форму</button>
+            <button type="reset">Скинути форму</button>
+        </div>
+    </form>
 </body>
 
 </html>
